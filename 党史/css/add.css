@@ -1,0 +1,125 @@
+*{ margin:0; padding:0;box-sizing: border-box;}
+a{text-decoration:none; color:#000;}
+a:hover{text-decoration:none;}
+h1, h2, h3, h4, h5, h6,b{font-weight:normal;}
+ul,li{list-style: none;}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+body{
+    background-color: #E6E6FA;
+}
+.header{
+    height: 66px;
+    line-height: 66px;
+	margin-top: 20px;
+    width: 100%;
+    background: rgba(230,230,250,.9);
+    z-index: 999;
+    text-align: center;
+}
+.menu a{
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 10px;
+    width: 120px;
+}
+.menu a:hover{
+    color: #88BD65;
+}
+.tit{
+	border: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    padding-left: 25px;
+    color: #dd151b;
+}
+.tit span{
+	font-size: 18px;
+    line-height: 38px;
+    font-weight: bold;
+}
+.tit a {
+    color: #C6C6C6;
+    font-size: 14px;
+    line-height: 38px;
+    float: right;
+}
+.main  ul {
+    padding: 20px 0px;
+    border: 1px solid #E5E5E5;
+    border-top: none;  
+}
+.item{
+	 width: 490px;
+    float: left;
+    margin-top: 30px;
+    margin-left:20px;
+}
+.main{
+	overflow: hidden;
+}
+.main  ul li {
+    padding: 5px 15px 5px 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.main  ul li a {
+    font-size: 16px;
+    color: #666666;
+    line-height: 26px;
+    background: url(../images/icon22.png) left center no-repeat;
+    padding-left: 15px;
+}
+.box1{
+    overflow: hidden;
+}
+.box1 li{
+	width: 30%;
+	float: left;
+	overflow: hidden;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.footer{
+    background-color: #000;
+    height: 50px;
+    line-height:50px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1024px;
+}
+.content{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.top h1{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.top .xian{
+    height: 30px;
+    border-bottom: 1px #000 solid;
+}
+.top .xian span{
+    margin-right:20px;
+}
+.top .xian span a:hover{
+    text-decoration:underline;
+}

@@ -1,0 +1,128 @@
+@charset "utf-8";
+.h2_title{
+    text-align: center;
+    margin: 20px auto;
+    color: #c33;
+    position: relative;
+}
+.h2_title::after{
+    content: '';
+    display: block;
+    width: 500px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 40px;
+    background-image: linear-gradient(90deg,transparent,red,transparent);
+}
+.se_main{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.se_main img{
+    width: 100%;
+    height: 100%;
+}
+.se_main > div{
+    width: 28%;
+    position: relative;
+    margin: 30px auto;
+}
+.se_main > div:hover > a{
+    display: inline-block;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.se_main > div > a{
+    font-size: 20px;
+    display: none;
+    opacity: 0;
+    padding: 70px 10px;
+    color: white;
+    background-color: rgba(204, 51, 51, 0.8);
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.se_main > ul{
+    width: 80%;
+}
+.se_main > ul > li{
+    line-height: 24px;
+    margin: 10px auto;
+    list-style-type: disc;
+}
+.se_main > ul > li > a{
+    float: left;
+}
+.se_main > ul > li > span{
+    float: right;
+}
+.se_main > ul > li > a:hover{
+    color: rgba(204, 51, 51, 0.8);
+    border-bottom: 2px solid #c33;
+}
+.se_main > .more{
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+    color: #c33;
+    position: relative;
+    padding: 10px;
+}
+.se_main > .more::after{
+    content: '';
+    display: block;
+    width: 300px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -150px;
+    background-image: linear-gradient(90deg,transparent,red,transparent);
+}
+
+.se_main > form{
+    width: 60%;
+}
+.se_main > form > ol > li{
+    list-style-type: decimal;
+}
+.se_main > form > ol > li > h3{
+    font-weight: bold;
+
+}
+.se_main > form > ol > li > div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.se_main > form > ol > li > div > p{
+    text-align: left;
+}
+.se_main > form > ol > li > div > p > input[type=radio]{
+    transform: scale(1.2);
+}
+.se_main > form > div{
+    margin: 10px auto;
+    text-align: center;
+}
+.se_main > form > div > input[type="submit"]{
+    color: white;
+    background-color: #c33;
+    border:none;
+    padding: 8px 30px;
+    text-align: center;
+}

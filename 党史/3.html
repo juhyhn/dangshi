@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/add.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+       <div class="container menu">
+            <a href="index.html"><img src="images/logo.jpg" width="100%" alt=""> </a>
+             <a href="index.html">首页</a>
+             <a href="1.html">党的基本知识</a>
+              <a href="2.html">特别推荐</a>
+              <a href="3.html">榜样在身边</a>
+              <a href="4.html">问卷调查</a>
+              <a href="注册.html">注册</a>
+       </div>
+    </div>
+    <div class="container">
+      <div style="height: 67px;"></div>
+      <img src="images/s3.jpg" width="100%" height="400">
+      <h2 class="h2_title">榜样在身边</h2>
+      <section class="se_main">
+        <ul>
+          <li>
+            <a href="">90岁教授退休后仍痴心讲党史</a>
+            <span>[ 2021年05月26日 ]</span>
+          </li>
+          <li>
+            <a href="">“有一分热，就要发一分光”（红色家风故事）</a>
+            <span>[ 2021年05月26日 ]</span>
+          </li>
+          <li>
+            <a href="">雷锋精神 代代传承（红色家风故事）</a>
+            <span>[ 2021年05月25日 ]</span>
+          </li>
+          <li>
+            <a href="">“一辈子跟党走，为民族为国家奋斗！”</a>
+            <span>[ 2021年05月24日 ]</span>
+          </li>
+          <li>
+            <a href="">“党怎么说我怎么做，不带一点私心杂念”</a>
+            <span>[ 2021年05月24日 ]</span>
+          </li>
+          <li>
+            <a href="">“银发之声”引领群众学党史</a>
+            <span>[ 2021年05月21日 ]</span>
+          </li>
+          <li>
+            <a href="">“要珍惜时间，为党多做点事”</a>
+            <span>[ 2021年05月20日 ]</span>
+          </li>
+          <li>
+            <a href="">组织入党一生一次，思想入党一生一世</a>
+            <span>[ 2021年05月19日 ]</span>
+          </li>
+          <li>
+            <a href="">用好红色资源 激发奋进力量</a>
+            <span>[ 2021年05月18日 ]</span>
+          </li>
+          <li>
+            <a href="">一笔一划一红心 字里行间显真情</a>
+            <span>[ 2021年05月17日 ]</span>
+          </li>
+        </ul>
+        <a href="javascript:a();" class="more">查看更多</a>
+        <script>
+            var ul = document.querySelector(".se_main > ul");
+              lists = ul.innerHTML;
+            function a(){
+              console.log(lists)
+              ul.innerHTML = ul.innerHTML + lists;
+            }
+        </script>
+      </section>
+      <div class="footer">
+         &copy;版权所有 长春理工
+      </div>
+    </div>
+</body>
+</html>

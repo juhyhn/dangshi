@@ -1,0 +1,48 @@
+@charset "utf-8";
+.top{
+	width:1000px;
+	padding: 12px;
+	padding: 50px;
+}
+.top_1{
+	width: 600px;
+	margin: 20px auto;
+}
+.top_1 img{
+	width:600px;
+}
+.top_2{
+	text-indent: 2em;
+	font-size: 20px;
+	margin: 50px auto;
+}
+.top_3{
+	width: 900px;
+}
+.top h3{
+	font-size: 30px;
+	color: red;
+}
+.top_4{
+	width: 1000px;
+	display: flex;
+}
+.top_4 div{
+	width: 500px;
+}
+.top_4 img{
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.top_4 h4{
+	text-align: center;
+	font-size: 25px;
+	color: red;
+	margin-bottom: 20px;
+}
+.top_4 p{
+	text-align: center;
+	margin-bottom: 20px;
+}

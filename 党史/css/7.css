@@ -1,0 +1,37 @@
+.content{
+	height: 1080px;
+}
+.center .img{
+	width: 750px;
+	height: 212px;
+	margin: 30px auto;
+}
+.center .img img{
+	width: 100%;
+	height: 100%;
+}
+.center b{
+	display: block;
+	text-align: center;
+	margin: 10px 0;
+}
+.center p{
+	text-indent: 2em;
+	font-size: 20px;
+	line-height: 40px;
+	margin-bottom: 10px;
+}
+.center .yejiao{
+	width: 1024px;
+	height: 50px;
+	margin: 0 auto;
+	border-bottom: 1px #000 solid;
+}
+.center .yejiao span{
+	font-size: 16px;
+	text-indent: 0;
+	margin-top: 20px;
+}
+.center .yejiao span a{
+	color: #666;
+}
